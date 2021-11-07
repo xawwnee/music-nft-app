@@ -1,9 +1,9 @@
 export default {
-	async getUSD() {
-		const response = await fetch("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD");
+	async getINR() {
+		const response = await fetch("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=INR");
 
-		const { USD } = await response.json();
+		const { INR } = await response.json();
 
-		return USD;
+		return INR;
 	}
 };
