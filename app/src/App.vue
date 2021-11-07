@@ -2,7 +2,7 @@
 	<div id="app">
 		<nav>
 			<p class="lifted-dapp">
-				<router-link to="/" exact> Lifted </router-link>
+				<router-link to="/" exact> RBFM </router-link>
 			</p>
 			<p class="all-releases">
 				<router-link to="/" exact> All Releases </router-link>
@@ -36,7 +36,7 @@
 					v-else
 					v-on:click="$store.dispatch('connectWallet')"
 				>
-					<h2 class="connectText">Connect to a wallet</h2>
+					<h2 class="connectText">Connect to wallet</h2>
 				</div>
 			</transition>
 		</nav>
