@@ -47,7 +47,7 @@ async function getUrlFromStorjUri(uri) {
 	const s3 = new S3({
 		accessKeyId: accessKey,
 		secretAccessKey: secretKey,
-		endpoint: "https://gateway.tardigradeshare.io",
+		endpoint: "https://gateway.ap1.storjshare.io",
 		s3ForcePathStyle: true,
 		signatureVersion: "v4"
 	});
