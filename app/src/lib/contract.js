@@ -4,13 +4,13 @@ import abi from "../abi.json";
 
 Contract.setProvider(
 	new Web3WsProvider(
-		"wss://ropsten.infura.io/ws/v3/e0521fe0263543b79880ef251466bf33"
+		"wss://speedy-nodes-nyc.moralis.io/fe314106582b64c4547fb8c2/bsc/testnet/ws"
 	)
 );
 
 const ocean = (window.ocean = new Contract(
 	abi,
-	"0x97cF2bB8186439935894ce9628993B5476bB9343"
+	"0xffBB015a2FEf271a412BEeF5541a766dc8BC6275"
 ));
 
 export { ocean };
